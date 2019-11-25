@@ -1,0 +1,72 @@
+
+    #toggler {
+        position: relative;
+        padding-top: 6px;
+        h6{
+            margin-left: 30px;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 1px;
+        }
+        &__btn {
+            cursor: pointer;
+            position: absolute;
+            &:hover span {
+                background-color: $primaryColor;
+            }
+            span{
+                display: block;
+                width: 19px;
+                height: 2px;
+                background-color: $secondaryColor;
+                margin: 3px 0;
+
+            }
+        }
+    }
+
+    nav{
+        background-color: #fff;
+        padding-left: 1rem !important;
+        padding-right: 2rem !important;
+        ul {
+            flex-direction: row !important;
+            li{
+                margin-right: 1rem;
+            }
+        }
+        #navbar-nav__form {
+            position: relative;
+            margin-top: -3px;
+            input {
+                width: 11rem;
+                line-height: 20px;
+                font-size: 12px;
+                border-radius: 1px;
+                border: 0;
+                border-bottom: 1px solid $secondaryColor;
+                color: rgb(116, 116, 116);
+                padding: 0 1.3rem 0 3px;
+            }
+            a{
+                position: absolute;
+                right: 5px;
+                bottom:8px;
+                font-size: 10px;
+            }
+        }
+        #profile__img {
+            height: 26px !important;
+            width: 27px;
+            border-radius: 100%;
+            overflow: hidden;
+            position: relative;
+            margin: 0;
+            img{
+                height: 100% !important;
+                width: 100%;
+                position: absolute;
+                top: 0px;
+            }
+        }
+    } 

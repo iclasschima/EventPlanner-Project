@@ -1,0 +1,48 @@
+/* LoginComponent */
+#password-div {
+    position: relative;
+    svg {
+        position: absolute;
+        right: 20px;
+        top: 44px;
+        cursor: pointer;
+        font-size: 13px;
+    }
+}
+
+#form-div {
+    margin-bottom: 7rem;
+    h4 {
+    font-weight: bold;
+    }
+    p {
+    font-size: $defaultFontSize;
+    }
+    form {
+        margin: 2rem auto;
+    }
+    label {
+        font-size: $defaultFontSize;
+    }
+    .form-row {
+        font-size: $defaultFontSize;
+    }
+   
+}
+
+ #signin-button{
+        margin: 3rem auto;
+         .fa-google,  .fa-facebook-f{
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+        a{
+            position: relative;
+        }
+        h6{
+            font-size: $defaultFontSize;
+        }
+    }
+
+

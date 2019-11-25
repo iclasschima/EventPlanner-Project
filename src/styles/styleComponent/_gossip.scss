@@ -1,0 +1,58 @@
+/* GossipComponent */
+#GossipComponent {
+    background-color: #FAFAFA;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    h5 {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-size: $headerFontSize;
+        text-align: center;
+    }
+    p{
+        font-size: $defaultFontSize;
+    }
+
+    #comment__div {
+        margin: 0 auto;
+        border-radius: 3px;
+        border: 3px solid #eee;
+        padding: 1rem 3px 2rem 1px;
+        // height: 100%;
+        @include mediaQuery(700px) {
+            margin-bottom: 0.1rem;
+            padding-bottom: 4rem;
+        }
+        span {
+            font-weight: 600;
+        }
+        h6{
+            color: $primaryColor;
+            font-size: $headerFontSize;
+            font-weight: bold;
+        }
+        &__img {
+            margin-top: 10px;
+            position: relative;
+            img{
+            //    display: inline;
+                margin: 0 auto;
+                height: 70px;
+                width: 70px;
+                 border-radius: 100%;
+            }
+        }
+        &__content {
+            height: 5rem;
+        }
+    } 
+}
+ 
+
+
+
+// window.location.pathname
+
+

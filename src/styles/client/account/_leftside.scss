@@ -1,0 +1,102 @@
+#leftside {
+    padding-bottom: 30px;
+    padding-left: 0px;
+
+    #bottomleft {
+        background-color: #fff;
+        margin-top: 1rem;
+
+        h5 {
+            font-size: $defaultFontSize;
+            font-weight: bold;
+            padding: 3px 0px 3px 10px;
+            line-height: 35px;
+            border-bottom: 1px solid $lightDarkColor;
+            color: $primaryColor;
+            margin-bottom: 0;
+            svg {
+                margin-right: 5px;
+            }
+        }
+
+        label {
+            font-size: $defaultFontSize;
+            font-weight: bold;
+        }
+    }
+
+    #topleft {
+        background-color: #fff;
+        padding: 15px;
+        padding-bottom: 20px;
+        h6 {
+            font-size: $headerFontSize;
+            font-weight: bold;
+            margin: 0;
+            margin-bottom: 3px;
+        }
+
+        #aboutme {
+            p {
+                margin-top: 10px;
+                font-size: $defaultFontSize;
+                color: black;
+            }
+        }
+
+        #img__div {
+            height: 200px !important;
+            border-radius: 3px;
+            overflow: hidden;
+            text-align: center;
+            padding: 0;
+            img {
+                height: 80% !important;
+                width: 100% !important;
+            }
+            a{
+                font-size: $defaultFontSize;
+            }
+        }
+        #profile-detail {
+            p {
+                font-size: $defaultFontSize;
+                color: $lightDarkColor;
+                height: 5px;
+                svg {
+                    font-size: $smallFontSize;
+                    margin-right: 2px;
+                }
+            }
+        }
+
+        &__bottom {
+            p {
+                margin: 0;
+                font-weight: bold;
+                color: $primaryColor;
+            }
+            span {
+                font-size: $defaultFontSize;
+                font-weight: bold;
+                
+            }
+
+            h6{
+                font-weight: bold;
+                color: $primaryColor;
+                font-size: $defaultFontSize;
+            }
+
+            h4 {
+                margin-bottom: 1px;
+            }
+
+            .col-12 {
+                a {
+                    font-size: $defaultFontSize;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#RecordComponent {
+    border-top: 3px solid $backgroundColor;
+    border-bottom: 3px solid $backgroundColor;
+    background-color: $backgroundColor;
+    padding: 2rem;
+    h5 {
+        font-weight: bold;
+        color: $secondaryColor;
+        font-size: 30px;
+    }
+
+    p {
+        font-weight: bold;
+        color: $secondaryColor;
+        font-size: 14px;
+    }
+    .col-md-3{
+        @include mediaQuery(650px) {
+            margin-bottom: 1rem;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+$primaryColor: #007bff;
+$secondaryColor: hsl(180, 7%, 14%);
+$headerFontSize: 15px;
+$backgroundColor: #FAFAFA;
+$defaultFontSize: 14px;
+$lightDarkColor: rgb(151, 150, 150);
+$smallFontSize: 12px;
+
+@mixin mediaQuery ($arg) {
+    @media screen and (max-width: $arg){
+        @content;
+    }
+}
+
+@mixin mediaQueryBig($arg) {
+     @media screen and (min-width: $arg){
+        @content;
+    }
+}
+@import './styleComponent/navbar';
+@import './styleComponent/banner';
+@import './styleComponent/topPlanner';
+@import './styleComponent/idea';
+@import './styleComponent/gossip';
+@import './styleComponent/login';
+@import './styleComponent/footer';
+@import './styleComponent/signup';
+@import './styleComponent/record';
+@import './client/sidenav';
+@import './client/topnav';
+@import './client/content';
+@import './client/dashboard/rightside';
+@import './client/dashboard/leftside';
+@import './client/connects/leftconnect';
+@import './client/account/leftside';
+@import './client/account/rightside';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Lato;
+}
+
+#header__hr{
+    width: 80px;
+    border: 1px solid #495057;
+    font-weight: bolder;
+    margin-top: 0 !important;
+}
+
+.form-control {
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 1px ;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #495057;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgba(0, 123, 255, 0.25);
+}

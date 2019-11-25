@@ -1,0 +1,14 @@
+/* banner */
+#banner {
+    height: 90vh;
+    padding-left: 7rem;
+    opacity: 0.8;
+    &__text {
+        margin-top: 8rem !important;
+    }
+    h1 {
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+}

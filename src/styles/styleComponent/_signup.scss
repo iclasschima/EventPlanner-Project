@@ -1,0 +1,25 @@
+#left__side {
+    padding: 0;
+    height: 110vh;
+    @include mediaQuery (1000px) {
+        height: 100% !important;
+    }
+    &__form{
+        margin: 0 auto;
+    }
+    p{
+        font-size: 13px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+}
+
+#right__side {
+    background-color: $primaryColor;
+    color: #eee;
+    img{
+        margin: 25% 0 0;
+    }
+}

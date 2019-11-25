@@ -1,0 +1,15 @@
+#Container {
+    padding: 20px 10px;
+    position: relative;
+    margin: 0;
+    height: 100%;
+    background-color: #eee;
+    // @include mediaQuery (667px) {
+    //     display: block;
+    // }
+    .row {
+        margin: 0 !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

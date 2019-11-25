@@ -1,0 +1,69 @@
+#FooterComponent{
+    background-color: $secondaryColor;
+    color: #fff;
+    padding: 3rem 4rem 0;
+    h6{
+        font-size: $headerFontSize;
+        color: #b7bcbd;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    p{
+        font-size: 13px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        &:hover{
+            color: #b7bcbd;
+        }
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        font-size: 13px;
+        margin-bottom: 1px;
+    }
+
+    #social__media__icons{
+        margin-top: 10px;
+        span{
+            border-radius: 50%;
+            margin: 0px 6px;
+            padding: 3px;
+            text-align: center;
+            svg{
+                font-size: 10px;
+                width: 19px;
+                vertical-align: 1px;
+            }
+        } 
+
+        #fa-twitter{
+            border: 1px solid #00acee;
+            svg{
+                color: #00acee;
+            }
+        }
+        #fa-facebook{
+             border: 1px solid #3b5998;
+            svg{
+                color: #3B5998;
+            }
+        }
+        #fa-instagram{
+            border: 1px solid #e1306c;
+            svg{
+                color: #e1306c;
+            }
+        }
+    }
+
+    #bottom-footer{
+        color: #b7bcbd;
+        p{
+            font-size: 12px;
+        }
+        
+    }
+}

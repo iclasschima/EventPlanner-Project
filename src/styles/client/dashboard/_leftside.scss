@@ -1,0 +1,176 @@
+#left__side__dashboard {
+    padding: 0;
+    padding-right: 10px;
+    // min-height: 37.5rem;
+    #top__dashboard {
+        background-color: #fff;
+        padding: 15px;
+        padding-bottom: 5px;
+        margin-bottom: 1rem !important;
+        border-radius: 2px;
+        h6 {
+        font-weight: bold;
+        font-size: $defaultFontSize;
+        margin-bottom: 3px !important;
+        color: $lightDarkColor;
+            svg {
+                margin-right: 3px;
+                font-size: 10px;
+            }
+        }
+        h1 {
+        //    font-weight: 300;
+            font-size: 30px;
+            color: $secondaryColor
+        }
+        .p-2 {
+            a{
+                display: inline;
+                &:hover{
+                    text-decoration: none;
+                    h6, h1{
+                        color: $primaryColor !important;
+                    }
+                }
+                p{
+                    margin-top: 1rem;
+                    margin-bottom: 0 !important;
+                    font-size: 12px;
+                    color: $lightDarkColor;
+                    font-weight: bold;
+                    span{
+                        color: rgb(243, 123, 123);
+                    }
+                }
+            }
+        }
+    }
+
+    h5 {
+        font-size: $defaultFontSize;
+        font-weight: bold;
+        padding: 3px 0px 3px 10px;
+        line-height: 35px;
+        border-bottom: 1px solid $lightDarkColor;
+        color: $primaryColor;
+        margin-bottom: 0;
+        svg {
+            margin-right: 5px;
+        }
+    }
+
+    #upcoming__events__div {
+        @include mediaQuery (770px) {
+            padding-left: 0 !important;
+            margin-top: 1rem;
+        }
+        #upcoming__events {
+            height: 100%;
+            border-radius: 3px;
+            background-color: #fff;
+            position: relative;
+            &__body {
+                #bottom__link {
+                    position: absolute;
+                    bottom: 3px;
+                    text-align: right;
+                    a {
+                        font-size: $smallFontSize;
+                        margin-top: 10px;
+                        font-weight: bold;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+               
+                &__content {
+                    border-bottom: 1px solid $lightDarkColor;
+                    padding: 2px;
+                    padding: 8px 8px 0px;
+                    &:hover {
+                        text-decoration: none;
+                        transition: all ease-in-out .2s;
+                        background-color: rgba(81, 111, 247, 0.075);
+                        h6{
+                            color: $primaryColor;
+                        }
+                    }
+                     h6{
+                            font-size: $defaultFontSize;
+                            margin: 0 !important;
+                            margin-bottom: 5px !important;
+                            font-weight: bold;
+                            color: $secondaryColor;
+                        }
+                    p {
+                        font-size: $smallFontSize;
+                        color: $lightDarkColor;
+                        font-weight: bold;
+                        margin: 0;
+                    }
+                }
+            }
+        }      
+    }
+    #recent__connects__div {
+        padding-right: 10px;
+        // height: 17rem;
+        #recent__connects {
+            height: 100%;
+            border-radius: 3px;
+            background-color: #fff;
+            
+            &__body {
+                &__content {
+                    border-bottom: 1px solid $lightDarkColor;
+                    padding: 10px 8px 3px;
+                    &:hover {
+                        text-decoration: none;
+                        transition: all ease-in-out .2s;
+                        background-color: rgba(81, 111, 247, 0.075);
+                        h6{
+                            color: $primaryColor;
+                        }
+                    }
+                    .col-2 {
+                        padding: 0 !important;
+                        text-align: center;
+                    }
+
+                    img {
+                        margin: 0 auto;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 100%;
+                    }
+
+                    .col-10 {
+                        position: relative;
+                        span {
+                            position: absolute;
+                            right: 20px;
+                            top: 0px;
+                            font-size: 10px;
+                            color: $lightDarkColor;
+                            font-weight: bold;
+                        }
+                      
+                        h6{
+                            font-size: $defaultFontSize;
+                            margin: 0 !important;
+                            margin-bottom: 10px !important;
+                            font-weight: bold;
+                            color: $secondaryColor;
+                        }
+                        p {
+                            font-size: $smallFontSize;
+                            color: $lightDarkColor;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+#right__dashboard {
+    padding: 0;
+    
+    @include mediaQuery (770px) {
+        // padding-right: 9px;
+        padding: 1rem 10px 0 0;
+    }
+    #notifications {
+        height: 24rem;
+        border-radius: 3px;
+        background-color: #fff;
+        margin-bottom: 1rem;
+        h5 {
+           font-size: $defaultFontSize;
+            font-weight: bold;
+            padding: 3px 0px 3px 10px;
+            line-height: 35px;
+            border-bottom: 1px solid $lightDarkColor;
+            color: $primaryColor;
+            svg {
+                margin-right: 5px;
+            }
+        }
+         &__body {
+            &__content {
+                border-bottom: 1px solid $lightDarkColor;
+                padding: 4px 8px 4px ;
+                height: 100%;
+                h6 {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: $lightDarkColor;
+                    margin-bottom: 3px;
+                    svg {
+                        margin-right: 5px;
+                    }
+                }
+                p {
+                    font-size: $smallFontSize;
+                    margin-bottom: 0px;
+                }
+            }
+        } 
+    }
+    #news__feeds {
+        border-radius: 3px;
+        height: 19rem;
+        background-color: #fff;
+        
+        h5 {
+            font-size: $defaultFontSize;
+            font-weight: bold;
+            padding: 3px 0px 3px 10px;
+            line-height: 35px;
+            border-bottom: 1px solid $lightDarkColor;
+            color: $primaryColor;
+            svg {
+                margin-right: 5px;
+            }
+        }
+        &__body {
+            &__content {
+                border-bottom: 1px solid $lightDarkColor;
+                padding: 4px 8px 4px ;
+                height: 100%;
+                h6 {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: $lightDarkColor;
+                    margin-bottom: 3px;
+                    svg {
+                        margin-right: 5px;
+                    }
+                }
+                p {
+                    font-size: $smallFontSize;
+                    margin-bottom: 0px;
+                }
+            }
+        } 
+    }
+}
